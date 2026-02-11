@@ -1,91 +1,94 @@
 📌 project-Qwen2-VL-2B-Instruct
 
-A hands-on implementation and experimentation project using the Qwen2-VL-2B-Instruct vision-language model — a multimodal AI capable of understanding and generating responses from both images and text. The project includes fine-tuning, evaluation, and interactive queries in notebook format.
+A hands-on implementation and experimentation project using Qwen2-VL-2B-Instruct, a multimodal vision-language model capable of understanding and generating responses from both images and text.
 
-This repository contains all the code, notebooks, and data used for training and interacting with the Qwen2-VL model on custom vision-language tasks.
+This repository contains code, notebooks, and example data used for interacting with the Qwen2-VL model on custom vision-language tasks.
 
 🚀 Overview
 
-The goal of this repository is to explore and work with the Qwen2-VL-2B-Instruct model — an instruction-tuned multimodal large vision-language model developed as part of the Qwen2 series, enabling both vision and language understanding in a unified framework.
+This project explores the Qwen2-VL-2B-Instruct model, an instruction-tuned multimodal model designed for combined vision and language understanding.
 
-Qwen2-VL-2B-Instruct excels at image captioning, visual question answering, OCR, document understanding, and other tasks where visual context and textual reasoning must be combined.
+The notebook demonstrates how to:
+
+Load the model
+
+Provide image + text input
+
+Generate responses
+
+Work with structured QA data
 
 📁 Repository Structure
-📌 project-Qwen2-VL-2B-Instruct/
-├── images/                        # Visual assets for documentation, demos, etc.
-├── qwen-vl-2b-finetune/           # Scripts & resources for fine-tuning Qwen2-VL-2B
-├── project_Qwen2_VL_2B_Instruct.ipynb  # Core notebook with project walkthrough & experiments
-├── qa.json                        # Example question-answer dataset (JSON format)
-└── README.md                      # This file
+project-Qwen2-VL-2B-Instruct/
+│
+├── images/                              # Images used for testing or experiments
+├── qwen-vl-2b-finetune/                  # Fine-tuning related files
+├── project_Qwen2_VL_2B_Instruct.ipynb    # Main experiment notebook
+├── qa.json                               # Example question-answer dataset
+└── README.md                             # Project documentation
 
-🛠️ Features
+🛠️ What This Project Includes
+1️⃣ Interactive Notebook
 
-✅ Instruction-Tuned Vision-Language Model
-Leverages the Qwen2-VL-2B-Instruct model designed for multimodal tasks (text + image) with instruction tuning for improved responses.
+project_Qwen2_VL_2B_Instruct.ipynb
 
-✅ Interactive Notebook
-The Jupyter notebook (.ipynb) walks through loading the model, preparing inputs, and performing inference such as:
+Contains experiments for:
 
-Visual Question Answering (VQA)
+Multimodal inference
 
-Image captioning
+Image-based question answering
 
-Text generation conditioned on images
+Model interaction
 
-✅ Extensible Fine-Tuning Pipeline
-The qwen-vl-2b-finetune/ directory contains fine-tuning scripts & data placeholders to adapt the model to custom datasets.
+2️⃣ Fine-Tuning Directory
 
-📌 Requirements
+qwen-vl-2b-finetune/
 
-To run this project locally, you should have:
+Reserved for:
 
-Python 3.8+
+Fine-tuning scripts
 
-Jupyter Notebook or JupyterLab
+Model adaptation workflows
 
-PyTorch (if running locally)
+3️⃣ Sample QA Dataset
 
-Hugging Face Transformers & Vision libraries
+qa.json
 
-GPU (optional but recommended for performance)
+Structured question-answer examples for testing or training.
 
-📌 Getting Started
+📌 How To Use
 
-Clone the repository
+Clone the repository:
 
 git clone https://github.com/Savaliya03/project-Qwen2-VL-2B-Instruct.git
 cd project-Qwen2-VL-2B-Instruct
 
 
-Open the main notebook
+Open the notebook:
 
-Open project_Qwen2_VL_2B_Instruct.ipynb in Jupyter to explore the project flow.
+project_Qwen2_VL_2B_Instruct.ipynb
 
-Run experiments
 
-Follow the notebook cells to load the model, process sample images, and generate outputs.
+Run the cells step-by-step inside Jupyter Notebook.
 
-🧠 What is Qwen2-VL?
+(No additional installation steps are documented in this repository.)
 
-Qwen2-VL is a vision-language model from the Qwen family (by Alibaba Cloud), capable of understanding and reasoning over both visual and textual inputs. The “2B” refers to the model size (2 billion parameters), and the Instruct version is tuned to follow human-style instructions effectively.
+🧠 About Qwen2-VL-2B-Instruct
 
-📝 Contributing
+Qwen2-VL-2B-Instruct is a multimodal model from the Qwen family that processes both images and text together.
 
-Contributions are welcome! You can:
+2B → 2 billion parameters
 
-Add more visual reasoning tasks
-
-Extend fine-tuning examples on custom datasets
-
-Add evaluation metrics and benchmarks
+Instruct → optimized to follow human-style instructions
 
 📜 License
 
-This repository is publicly available and free to use under GitHub’s standard terms.
-The original model used in this project — Qwen2-VL-2B-Instruct — is released under the Apache License 2.0 (a permissive open-source license that allows commercial and non-commercial use, modifications, and redistribution) as provided in its official model card.
+This repository is publicly available.
 
-Please refer to the model’s LICENSE file for full details and ensure compliance when adapting or redistributing the model.
+The model used in this project — Qwen2-VL-2B-Instruct — follows its original license as released by its developers.
+
+Please refer to the official model documentation for detailed licensing terms.
 
 🙌 Acknowledgements
 
-Special thanks to the Qwen team and contributors for releasing the Qwen2-VL-2B-Instruct vision-language model and making it openly accessible for research and development. Their work enables powerful multimodal understanding combining vision and language.
+Thanks to the Qwen team for developing and releasing the Qwen2-VL models, enabling research and experimentation in multimodal AI.
