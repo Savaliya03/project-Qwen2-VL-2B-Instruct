@@ -1,4 +1,4 @@
-📌 project-Qwen2-VL-2B-Instruct
+**📌 project-Qwen2-VL-2B-Instruct**
 
 A hands-on implementation and experimentation project using the Qwen2-VL-2B-Instruct vision-language model — a multimodal AI capable of understanding and generating responses from both images and text.
 
