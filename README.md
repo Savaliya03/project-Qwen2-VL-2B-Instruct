@@ -40,61 +40,88 @@ If you are a beginner or a student, here is why this project is useful:
 ```
 
 🛠️ Features
-✅ Instruction-Tuned Vision-Language Model: Leverages the Qwen2-VL-2B-Instruct model designed for multimodal tasks (text + image) with instruction tuning for improved, human-like responses.
 
-✅ Interactive Notebook: The Jupyter notebook (.ipynb) walks through:
+This project offers the following powerful capabilities:
 
-Loading the model.
+Instruction-Tuned Vision-Language Model:
+Leverages the Qwen2-VL-2B-Instruct model designed for multimodal tasks (text + image), enhanced with instruction tuning for more accurate and human-like responses.
 
-Preparing inputs.
+Interactive Notebook:
+The Jupyter notebook (project_Qwen2_VL_2B_Instruct.ipynb) provides a complete walkthrough including:
 
-Performing inference (VQA, Captioning, Image-conditioned text generation).
+Loading the model
 
-✅ Extensible Fine-Tuning Pipeline: The qwen-vl-2b-finetune/ directory contains everything you need to adapt the model to your own custom datasets.
+Preparing inputs
+
+Performing inference (VQA, Captioning, Image-conditioned text generation)
+
+Extensible Fine-Tuning Pipeline:
+The qwen-vl-2b-finetune/ directory contains scripts and resources required to adapt the model to custom datasets efficiently.
 
 📌 Requirements
-To run this project, you should have:
 
-Python: 3.8+
+To successfully run this project, ensure you have:
 
-Environment: Jupyter Notebook, JupyterLab, or Google Colab.
+Python: 3.8 or higher
 
-Libraries: PyTorch, Hugging Face Transformers, Accelerate, and PEFT.
+Environment: Jupyter Notebook, JupyterLab, or Google Colab
 
-Hardware: GPU is recommended (Free T4 on Colab works perfectly).
+Libraries: PyTorch, Hugging Face Transformers, Accelerate, and PEFT
 
-📌 Getting Started
-1. Clone the repository
-Bash
-```text
+Hardware: GPU recommended (Free T4 GPU on Colab works perfectly)
+
+🚀 Getting Started
+
+Follow these simple steps to begin:
+
+1️⃣ Clone the Repository
 git clone https://github.com/Savaliya03/project-Qwen2-VL-2B-Instruct.git
 cd project-Qwen2-VL-2B-Instruct
-```
 
-2. Open the main notebook
-Open project_Qwen2_VL_2B_Instruct.ipynb in your preferred editor to explore the project flow.
+2️⃣ Open the Main Notebook
 
-3. Run experiments
-Simply follow the notebook cells step-by-step to load the model, process images, and generate outputs.
+Open project_Qwen2_VL_2B_Instruct.ipynb in your preferred environment to explore the complete project workflow.
+
+3️⃣ Run Experiments
+
+Execute the notebook cells step-by-step to:
+
+Load the model
+
+Process image inputs
+
+Generate multimodal outputs
 
 🧠 What is Qwen2-VL?
-Qwen2-VL is a vision-language model from the Qwen family (by Alibaba Cloud). It is capable of understanding and reasoning over both visual and textual inputs.
 
-The “2B” refers to the model size (2 billion parameters).
+Qwen2-VL is a multimodal vision-language model from the Qwen family (developed by Alibaba Cloud). It is capable of understanding, reasoning, and generating responses based on both visual and textual inputs within a unified architecture.
 
-The "Instruct" version is specially tuned to follow human-style instructions effectively.
+“2B” refers to the model size (2 billion parameters), balancing efficiency and performance.
 
-📝 Contributing
-Contributions are welcome! If you want to help, you can:
+“Instruct” indicates that the model is specifically fine-tuned to follow structured human instructions effectively.
 
-Add more visual reasoning tasks.
+🤝 Contributing
 
-Extend fine-tuning examples on custom datasets.
+Contributions are welcome and appreciated!
 
-Add evaluation metrics and benchmarks.
+You can contribute by:
+
+Adding new visual reasoning tasks
+
+Extending fine-tuning examples with custom datasets
+
+Implementing evaluation metrics and benchmarking tools
+
+Feel free to fork the repository and submit a pull request.
 
 📜 License
-This repository is publicly available and free to use under GitHub’s standard terms. The original model — Qwen2-VL-2B-Instruct — is released under the Apache License 2.0. This is a permissive open-source license that allows commercial and non-commercial use, modifications, and redistribution.
+
+This repository is publicly available under GitHub’s standard terms.
+
+The original model — Qwen2-VL-2B-Instruct — is released under the Apache License 2.0, a permissive open-source license allowing commercial and non-commercial use, modification, and redistribution.
 
 🙌 Acknowledgements
-Special thanks to the Qwen team and contributors for releasing the Qwen2-VL-2B-Instruct model and making it openly accessible. Their work enables powerful multimodal understanding for the developer community.
+
+Special thanks to the Qwen team and contributors for releasing the Qwen2-VL-2B-Instruct model and making it openly accessible to the developer community.
+
+Their contribution empowers researchers and developers to build advanced multimodal AI applications.
