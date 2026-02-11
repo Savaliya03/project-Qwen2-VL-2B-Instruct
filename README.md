@@ -39,6 +39,7 @@ PEFT Fine-tuning: We use Parameter-Efficient Fine-Tuning (like LoRA) to train th
 ├── qa.json                         # Example question-answer dataset (JSON format)
 └── README.md                       # This file
 ```
+
 🛠️ Features
 ✅ Instruction-Tuned Vision-Language Model Leverages the Qwen2-VL-2B-Instruct model designed for multimodal tasks (text + image) with instruction tuning for improved, human-like responses.
 
@@ -66,8 +67,10 @@ Hardware: GPU is recommended (Free T4 on Colab works perfectly).
 📌 Getting Started
 1. Clone the repository
 Bash
+```text
 git clone https://github.com/Savaliya03/project-Qwen2-VL-2B-Instruct.git
 cd project-Qwen2-VL-2B-Instruct
+```
 
 3. Open the main notebook
 Open project_Qwen2_VL_2B_Instruct.ipynb in your preferred editor to explore the project flow.
