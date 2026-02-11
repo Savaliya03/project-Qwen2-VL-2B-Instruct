@@ -30,12 +30,15 @@ Memory Optimized: This project is designed to use quantization (4-bit/8-bit), al
 PEFT Fine-tuning: We use Parameter-Efficient Fine-Tuning (like LoRA) to train the model quickly without needing massive computing power.
 
 📁 Repository Structure
-📌 project-Qwen2-VL-2B-Instruct/
-├── images/                         # Visual assets for documentation and demos
-├── qwen-vl-2b-finetune/            # Scripts & resources for fine-tuning
-├── project_Qwen2_VL_2B_Instruct.ipynb  # Core notebook with experiments
-├── qa.json                         # Example question-answer dataset
-└── README.md                       # This file
+your-project-name/
+├── assets/             # Images, logos, and icons
+├── src/                # Your main source code
+│   ├── components/     # Reusable UI parts
+│   └── utils/          # Helper functions
+├── tests/              # Folder for your testing scripts
+├── .gitignore          # Files to ignore in Git
+├── README.md           # This documentation file
+└── requirements.txt    # List of libraries to install
 
 
 🛠️ Features
