@@ -38,7 +38,7 @@ PEFT Fine-tuning: We use Parameter-Efficient Fine-Tuning (like LoRA) to train th
 ├── project_Qwen2_VL_2B_Instruct.ipynb  # Core notebook with project walkthrough
 ├── qa.json                         # Example question-answer dataset (JSON format)
 └── README.md                       # This file
-
+```
 🛠️ Features
 ✅ Instruction-Tuned Vision-Language Model Leverages the Qwen2-VL-2B-Instruct model designed for multimodal tasks (text + image) with instruction tuning for improved, human-like responses.
 
